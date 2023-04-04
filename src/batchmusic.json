@@ -1,0 +1,34 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Linkin Park"},
+                  "SongTitle": {"S": "Pushing Me Away"},
+                  "AlbumTitle": {"S": "Hybrid Theory"},
+                  "SongYear": {"S": "2000"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Metallica"},
+                  "SongTitle": {"S": "Turn the Page"},
+                  "AlbumTitle": {"S": "Garage inc."},
+                  "SongYear": {"S": "1998"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Red Hot Chilli Pappers"},
+                  "SongTitle": {"S": "Sick Love"},
+                  "AlbumTitle": {"S": "The Getaway"},
+                  "SongYear": {"S": "2016"}
+                }
+            }
+        }
+      ]
+}
